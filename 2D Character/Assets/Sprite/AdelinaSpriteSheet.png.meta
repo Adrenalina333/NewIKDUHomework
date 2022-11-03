@@ -1,0 +1,1347 @@
+fileFormatVersion: 2
+guid: d98adca06e7af474fa987d64553c181a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 196
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b058035305c3184caa104a8a86dfaca
+      internalID: -422951038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 197
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -226, y: -73}
+        - {x: -234, y: -86}
+        - {x: -234, y: -121}
+        - {x: -230, y: -128}
+        - {x: -204, y: -128}
+        - {x: -200, y: -121}
+        - {x: -200, y: -86}
+        - {x: -208, y: -73}
+      - - {x: -34, y: -73}
+        - {x: -40, y: -83}
+        - {x: -42, y: -91}
+        - {x: -42, y: -122}
+        - {x: -32, y: -128}
+        - {x: -19, y: -128}
+        - {x: -8, y: -115}
+        - {x: -8, y: -80}
+        - {x: -20, y: -73}
+      - - {x: 28, y: -73}
+        - {x: 11, y: -73}
+        - {x: 4, y: -75}
+        - {x: 4, y: -120}
+        - {x: 18, y: -128}
+        - {x: 33, y: -128}
+        - {x: 39, y: -121}
+        - {x: 39, y: -89}
+        - {x: 38, y: -82}
+      - - {x: -178, y: -72}
+        - {x: -184, y: -82}
+        - {x: -186, y: -96}
+        - {x: -186, y: -116}
+        - {x: -173, y: -127}
+        - {x: -153, y: -127}
+        - {x: -152, y: -121}
+        - {x: -152, y: -75}
+        - {x: -159, y: -72}
+      - - {x: -67, y: -73}
+        - {x: -70, y: -72}
+        - {x: -78, y: -72}
+        - {x: -90, y: -82}
+        - {x: -90, y: -116}
+        - {x: -80, y: -127}
+        - {x: -67, y: -127}
+        - {x: -56, y: -117}
+        - {x: -56, y: -81}
+      - - {x: 54, y: -72}
+        - {x: 52, y: -73}
+        - {x: 52, y: -104}
+        - {x: 53, y: -114}
+        - {x: 67, y: -127}
+        - {x: 83, y: -127}
+        - {x: 87, y: -122}
+        - {x: 87, y: -78}
+        - {x: 77, y: -72}
+      - - {x: 224, y: -73}
+        - {x: 196, y: -73}
+        - {x: 196, y: -104}
+        - {x: 201, y: -127}
+        - {x: 217, y: -127}
+        - {x: 221, y: -125}
+        - {x: 232, y: -114}
+        - {x: 232, y: -93}
+      - - {x: -131, y: -71}
+        - {x: -138, y: -85}
+        - {x: -138, y: -120}
+        - {x: -136, y: -125}
+        - {x: -112, y: -125}
+        - {x: -104, y: -120}
+        - {x: -104, y: -77}
+        - {x: -113, y: -71}
+      - - {x: 136, y: -78}
+        - {x: 125, y: -71}
+        - {x: 102, y: -71}
+        - {x: 100, y: -72}
+        - {x: 100, y: -109}
+        - {x: 107, y: -125}
+        - {x: 125, y: -125}
+        - {x: 136, y: -113}
+      - - {x: 148, y: -72}
+        - {x: 148, y: -107}
+        - {x: 155, y: -125}
+        - {x: 176, y: -125}
+        - {x: 184, y: -119}
+        - {x: 184, y: -78}
+        - {x: 180, y: -72}
+      - - {x: 230, y: -9}
+        - {x: 208, y: -9}
+        - {x: 204, y: -12}
+        - {x: 199, y: -38}
+        - {x: 199, y: -55}
+        - {x: 211, y: -64}
+        - {x: 219, y: -64}
+        - {x: 234, y: -51}
+        - {x: 234, y: -10}
+      - - {x: -234, y: -6}
+        - {x: -236, y: -11}
+        - {x: -236, y: -40}
+        - {x: -235, y: -52}
+        - {x: -226, y: -63}
+        - {x: -212, y: -63}
+        - {x: -200, y: -58}
+        - {x: -200, y: -12}
+        - {x: -213, y: -6}
+      - - {x: -39, y: -6}
+        - {x: -44, y: -14}
+        - {x: -44, y: -52}
+        - {x: -30, y: -63}
+        - {x: -9, y: -63}
+        - {x: -9, y: -10}
+        - {x: -25, y: -6}
+      - - {x: 16, y: -9}
+        - {x: 6, y: -29}
+        - {x: 6, y: -56}
+        - {x: 13, y: -63}
+        - {x: 39, y: -63}
+        - {x: 42, y: -56}
+        - {x: 42, y: -9}
+      - - {x: 159, y: -8}
+        - {x: 151, y: -24}
+        - {x: 151, y: -52}
+        - {x: 160, y: -63}
+        - {x: 168, y: -63}
+        - {x: 182, y: -61}
+        - {x: 186, y: -47}
+        - {x: 186, y: -8}
+      - - {x: -167, y: -5}
+        - {x: -185, y: -5}
+        - {x: -188, y: -13}
+        - {x: -188, y: -53}
+        - {x: -174, y: -62}
+        - {x: -158, y: -62}
+        - {x: -152, y: -52}
+        - {x: -152, y: -25}
+        - {x: -155, y: -11}
+      - - {x: -66, y: -7}
+        - {x: -72, y: -5}
+        - {x: -87, y: -5}
+        - {x: -92, y: -15}
+        - {x: -92, y: -55}
+        - {x: -79, y: -62}
+        - {x: -59, y: -62}
+        - {x: -57, y: -57}
+        - {x: -57, y: -28}
+        - {x: -61, y: -16}
+      - - {x: -123, y: -4}
+        - {x: -135, y: -4}
+        - {x: -140, y: -12}
+        - {x: -140, y: -53}
+        - {x: -126, y: -61}
+        - {x: -108, y: -61}
+        - {x: -104, y: -53}
+        - {x: -104, y: -25}
+        - {x: -108, y: -10}
+      - - {x: 69, y: -8}
+        - {x: 62, y: -13}
+        - {x: 54, y: -41}
+        - {x: 54, y: -54}
+        - {x: 59, y: -61}
+        - {x: 79, y: -61}
+        - {x: 90, y: -57}
+        - {x: 90, y: -12}
+        - {x: 89, y: -8}
+      - - {x: 112, y: -7}
+        - {x: 105, y: -9}
+        - {x: 102, y: -32}
+        - {x: 102, y: -52}
+        - {x: 113, y: -61}
+        - {x: 122, y: -61}
+        - {x: 126, y: -60}
+        - {x: 138, y: -52}
+        - {x: 138, y: -7}
+      - - {x: 208, y: 59}
+        - {x: 196, y: 55}
+        - {x: 196, y: 10}
+        - {x: 211, y: 0}
+        - {x: 221, y: 0}
+        - {x: 232, y: 12}
+        - {x: 232, y: 27}
+        - {x: 223, y: 59}
+      - - {x: -214, y: 58}
+        - {x: -221, y: 56}
+        - {x: -230, y: 48}
+        - {x: -233, y: 30}
+        - {x: -233, y: 8}
+        - {x: -227, y: 1}
+        - {x: -215, y: 1}
+        - {x: -198, y: 10}
+        - {x: -198, y: 51}
+        - {x: -204, y: 58}
+      - - {x: -23, y: 58}
+        - {x: -38, y: 52}
+        - {x: -42, y: 34}
+        - {x: -42, y: 8}
+        - {x: -34, y: 1}
+        - {x: -8, y: 1}
+        - {x: -6, y: 8}
+        - {x: -6, y: 57}
+        - {x: -8, y: 58}
+      - - {x: 160, y: 60}
+        - {x: 148, y: 56}
+        - {x: 148, y: 12}
+        - {x: 161, y: 1}
+        - {x: 175, y: 1}
+        - {x: 184, y: 15}
+        - {x: 184, y: 30}
+        - {x: 176, y: 60}
+      - - {x: -166, y: 59}
+        - {x: -183, y: 53}
+        - {x: -185, y: 40}
+        - {x: -185, y: 12}
+        - {x: -181, y: 2}
+        - {x: -167, y: 2}
+        - {x: -150, y: 12}
+        - {x: -150, y: 53}
+        - {x: -155, y: 59}
+      - - {x: -71, y: 59}
+        - {x: -86, y: 53}
+        - {x: -90, y: 23}
+        - {x: -90, y: 12}
+        - {x: -84, y: 2}
+        - {x: -66, y: 2}
+        - {x: -54, y: 8}
+        - {x: -54, y: 53}
+        - {x: -58, y: 59}
+      - - {x: 15, y: 59}
+        - {x: 4, y: 53}
+        - {x: 4, y: 34}
+        - {x: 6, y: 13}
+        - {x: 19, y: 2}
+        - {x: 34, y: 2}
+        - {x: 39, y: 9}
+        - {x: 39, y: 23}
+        - {x: 32, y: 59}
+      - - {x: -130, y: 60}
+        - {x: -138, y: 38}
+        - {x: -138, y: 10}
+        - {x: -127, y: 3}
+        - {x: -112, y: 3}
+        - {x: -102, y: 11}
+        - {x: -102, y: 53}
+        - {x: -109, y: 60}
+      - - {x: 80, y: 60}
+        - {x: 52, y: 60}
+        - {x: 52, y: 13}
+        - {x: 62, y: 3}
+        - {x: 82, y: 3}
+        - {x: 83, y: 5}
+        - {x: 87, y: 11}
+        - {x: 87, y: 21}
+      - - {x: 100, y: 61}
+        - {x: 100, y: 12}
+        - {x: 112, y: 3}
+        - {x: 127, y: 3}
+        - {x: 129, y: 4}
+        - {x: 136, y: 14}
+        - {x: 136, y: 22}
+        - {x: 130, y: 61}
+      - - {x: -231, y: 120}
+        - {x: -234, y: 105}
+        - {x: -234, y: 71}
+        - {x: -226, y: 64}
+        - {x: -209, y: 64}
+        - {x: -200, y: 71}
+        - {x: -200, y: 120}
+      - - {x: -15, y: 120}
+        - {x: -39, y: 120}
+        - {x: -42, y: 109}
+        - {x: -42, y: 74}
+        - {x: -35, y: 64}
+        - {x: -22, y: 64}
+        - {x: -8, y: 75}
+        - {x: -8, y: 94}
+        - {x: -11, y: 118}
+      - - {x: 37, y: 123}
+        - {x: 18, y: 123}
+        - {x: 6, y: 113}
+        - {x: 6, y: 71}
+        - {x: 17, y: 64}
+        - {x: 31, y: 64}
+        - {x: 40, y: 76}
+        - {x: 42, y: 92}
+        - {x: 42, y: 119}
+      - - {x: -182, y: 121}
+        - {x: -186, y: 102}
+        - {x: -186, y: 77}
+        - {x: -179, y: 67}
+        - {x: -171, y: 65}
+        - {x: -161, y: 65}
+        - {x: -152, y: 76}
+        - {x: -152, y: 121}
+      - - {x: -61, y: 121}
+        - {x: -88, y: 121}
+        - {x: -90, y: 111}
+        - {x: -90, y: 74}
+        - {x: -84, y: 65}
+        - {x: -65, y: 65}
+        - {x: -56, y: 76}
+        - {x: -56, y: 104}
+        - {x: -57, y: 120}
+      - - {x: 80, y: 124}
+        - {x: 63, y: 124}
+        - {x: 56, y: 99}
+        - {x: 54, y: 84}
+        - {x: 54, y: 78}
+        - {x: 68, y: 65}
+        - {x: 74, y: 65}
+        - {x: 88, y: 77}
+        - {x: 90, y: 95}
+        - {x: 90, y: 119}
+      - - {x: 224, y: 123}
+        - {x: 206, y: 123}
+        - {x: 199, y: 107}
+        - {x: 199, y: 66}
+        - {x: 220, y: 66}
+        - {x: 232, y: 78}
+        - {x: 234, y: 96}
+        - {x: 234, y: 118}
+      - - {x: -138, y: 74}
+        - {x: -134, y: 67}
+        - {x: -115, y: 67}
+        - {x: -104, y: 74}
+        - {x: -104, y: 116}
+        - {x: -105, y: 121}
+        - {x: -109, y: 122}
+        - {x: -135, y: 122}
+        - {x: -138, y: 108}
+      - - {x: 111, y: 125}
+        - {x: 102, y: 102}
+        - {x: 102, y: 72}
+        - {x: 113, y: 67}
+        - {x: 127, y: 67}
+        - {x: 138, y: 80}
+        - {x: 138, y: 119}
+        - {x: 127, y: 125}
+      - - {x: 170, y: 124}
+        - {x: 163, y: 124}
+        - {x: 155, y: 111}
+        - {x: 157, y: 99}
+        - {x: 152, y: 85}
+        - {x: 151, y: 82}
+        - {x: 151, y: 78}
+        - {x: 156, y: 67}
+        - {x: 173, y: 67}
+        - {x: 186, y: 78}
+        - {x: 186, y: 118}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294a0685adf15ff4f80b4ca893e5d4da
+      internalID: -205386806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 199
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96969468e93746a4e885454ac122a538
+      internalID: 668563793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 197
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e078dbb9d8f5b43abd14076c060597
+      internalID: -1917795005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 196
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d30bf33bf750a34283704385d2b0411
+      internalID: -1775728686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 196
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4045273ba7eb4ef40ba81381a72296cf
+      internalID: -1997149964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 197
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f5cb4382f8e62448fbbb245966239c
+      internalID: -1699673111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 199
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0548e4a391e52644fa115f14000a641a
+      internalID: 1225274770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 199
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d9b961dc8129428579fec27d829f4
+      internalID: -2046929627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 198
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b3bbd8844e5be4faf55456a3350fae
+      internalID: -230016330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 133
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4081ed6d3f94b224486b3caf2990ba58
+      internalID: -156554111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 134
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d789c70db352449b9e8e42a7cd019c
+      internalID: -123834156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 135
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09652a63b5e2d84c8711ba53f627119
+      internalID: -1638227981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 134
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a2455a418c43248ac4824df853e01b
+      internalID: -108907754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 133
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ea744b63faeba4c8583dfc7e2b772f
+      internalID: -283567586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 134
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a056dde5e25d8bd4289b432ab3d20521
+      internalID: -1000970467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 135
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942eb294c3196a84ead8d208a3cc2a93
+      internalID: -1010607323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 135
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb8cfbcf1a34544bbc67201bcc44523
+      internalID: -523224491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 133
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4e40ea2c5611e4bb796515a8a88019
+      internalID: 1078521135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 132
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027a12b94e578e749a85e26fc1b513c7
+      internalID: 1344294821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 69
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba6c0b629cf7d540874d25c7d4e8816
+      internalID: -2130130032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 70
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850e1858eb18a434ca94a6510140e3ff
+      internalID: -1153971158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 71
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e9147b5591bac4699d4bf1efc7b16f
+      internalID: -1961091010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 70
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e64938802a3374990717ebd1c0dee4
+      internalID: -1458895793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 69
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e37cb553b793b40803f2ee68ae0c0a
+      internalID: -1559252021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 69
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6372f02812eb56f4680a513e51feb0ad
+      internalID: -963542652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 71
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ca0c2b972117458c59e99c477ca81
+      internalID: -1905568223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 71
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdc1c960c864fc4d9ae26775b8b289b
+      internalID: 782898210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 69
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f20298a5a80f2648826483d0c82ee2f
+      internalID: -312001368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 68
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae7f6e1e382dd046afac89f8de7ccb2
+      internalID: 899399849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1de754892ef8ef4da03a46b4cce3183
+      internalID: 876144477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc07face1d6970644b57643a97f5a89d
+      internalID: -549072909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee0d18d04786784487c97cc696e0e1d
+      internalID: 1304187693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 5
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a46bcc0c7e861146bed2f410a998695
+      internalID: 530633379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 4
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5b8261d5919b047afc9a8879b6b357
+      internalID: -861578454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37707b0541ad78d41be8cbec9e2f1fad
+      internalID: 1039942583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 5
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59c39c7011095946b6b465c2967a431
+      internalID: -2145720049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 7
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad184439684f28458a533736613c4cb
+      internalID: -1138313568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 7
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5025ff59ccc1d4dbcc4ab5db4586c9
+      internalID: 1289486256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdelinaSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 5
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267537e587298144daf1e0840da07be1
+      internalID: -707647077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AdelinaSpriteSheet_22: -1961091010
+      AdelinaSpriteSheet_25: -963542652
+      AdelinaSpriteSheet_32: 1304187693
+      AdelinaSpriteSheet_9: -230016330
+      AdelinaSpriteSheet_38: 1289486256
+      AdelinaSpriteSheet_21: -1153971158
+      AdelinaSpriteSheet_34: -861578454
+      AdelinaSpriteSheet_4: -1775728686
+      AdelinaSpriteSheet_6: -1699673111
+      AdelinaSpriteSheet_18: 1078521135
+      AdelinaSpriteSheet_28: -312001368
+      AdelinaSpriteSheet_1: -205386806
+      AdelinaSpriteSheet_10: -156554111
+      AdelinaSpriteSheet_13: -108907754
+      AdelinaSpriteSheet_7: 1225274770
+      AdelinaSpriteSheet_14: -283567586
+      AdelinaSpriteSheet_3: -1917795005
+      AdelinaSpriteSheet_15: -1000970467
+      AdelinaSpriteSheet_5: -1997149964
+      AdelinaSpriteSheet_31: -549072909
+      AdelinaSpriteSheet_33: 530633379
+      AdelinaSpriteSheet_12: -1638227981
+      AdelinaSpriteSheet_17: -523224491
+      AdelinaSpriteSheet_23: -1458895793
+      AdelinaSpriteSheet_16: -1010607323
+      AdelinaSpriteSheet_2: 668563793
+      AdelinaSpriteSheet_20: -2130130032
+      AdelinaSpriteSheet_26: -1905568223
+      AdelinaSpriteSheet_19: 1344294821
+      AdelinaSpriteSheet_36: -2145720049
+      AdelinaSpriteSheet_37: -1138313568
+      AdelinaSpriteSheet_8: -2046929627
+      AdelinaSpriteSheet_11: -123834156
+      AdelinaSpriteSheet_27: 782898210
+      AdelinaSpriteSheet_0: -422951038
+      AdelinaSpriteSheet_35: 1039942583
+      AdelinaSpriteSheet_29: 899399849
+      AdelinaSpriteSheet_30: 876144477
+      AdelinaSpriteSheet_39: -707647077
+      AdelinaSpriteSheet_24: -1559252021
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
