@@ -1,43 +1,53 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 using System.IO;
 
 public class ButtonBehavior : MonoBehaviour
 {
-    public float loggingDuration = 10f; // Duration of logging in seconds
+    public Button StartButton;
+
+    public Button StopButton;
+
+    public float logging = 10f;
+
+    public bool isPressed = false;
+
     private string filePath;
+
     private StreamWriter writer;
-    private bool isLogging = false;
-
-    void Start()
+    
+    void Start ()
     {
-        filePath = @"C:\Users\Adeli\CSV_DATA\Accelerometer_Data" + System.DateTime.Now.ToString("yyyyMMddHHmmss") + ".csv";
-        writer = new StreamWriter(filePath);
-        writer.WriteLine("X,Y,Z");
+
+         filePath = @"C:\Users\Adeli\CSV_DATA\AccelerometerData" + ".csv";
+            writer = new StreamWriter(filePath);
+            writer.WriteLine("X,Y,Z");
     }
 
-    void Update()
+   void Update()
     {
-        if (isLogging)
+        if (isPressed == true)
         {
-            Vector3 accelerometerData = Input.acceleration;
-            string dataString = string.Format("{0},{1},{2}", accelerometerData.x, accelerometerData.y, accelerometerData.z);
+
+            Vector3 accelerometerdata = Input.acceleration;
+
+            string dataString = string.Format("{0},{1},{2}", accelerometerdata.x, accelerometerdata.y, accelerometerdata.z);
+
             writer.WriteLine(dataString);
+
             Debug.Log(dataString);
+
+            Invoke("ButtonFalse", logging);
+
         }
     }
 
-    void OnGUI()
+    void ButtonFalse()
     {
-        if (GUI.Button(new Rect(50, 50, 500, 250), "Start Logging"))
-        {
-            isLogging = true;
-            Invoke("StopLogging", loggingDuration);
-        }
-    }
-
-    void StopLogging()
-    {
-        isLogging = false;
+        isPressed = false;
         writer.Close();
     }
+
 }
