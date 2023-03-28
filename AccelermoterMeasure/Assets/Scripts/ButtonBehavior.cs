@@ -3,51 +3,66 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using System.IO;
+using Unity.Android.Gradle;
 
 public class ButtonBehavior : MonoBehaviour
 {
-    public Button StartButton;
+    public Button MeasureButton;
 
-    public Button StopButton;
-
-    public float logging = 10f;
+    //public float logging = 10f;
 
     public bool isPressed = false;
 
     private string filePath;
 
     private StreamWriter writer;
-    
-    void Start ()
+
+    void Start()
     {
 
-         filePath = @"C:\Users\Adeli\CSV_DATA\AccelerometerData" + ".csv";
-            writer = new StreamWriter(filePath);
-            writer.WriteLine("X,Y,Z");
+        filePath = @"C:\Users\Adeli\CSV_DATA\AccelerometerData" + System.DateTime.Now.ToString("yyyyMMddHHmmss") + ".csv";
+        writer = new StreamWriter(filePath);
+        writer.WriteLine("X,Y,Z");
     }
 
-   void Update()
+    void Update()
     {
-        if (isPressed == true)
+        if (isPressed)
         {
 
             Vector3 accelerometerdata = Input.acceleration;
 
             string dataString = string.Format("{0},{1},{2}", accelerometerdata.x, accelerometerdata.y, accelerometerdata.z);
 
-            writer.WriteLine(dataString);
+            if( accelerometerdata.y < -0.95f)
+            {
+                writer.WriteLine(dataString);
 
-            Debug.Log(dataString);
+                Debug.Log(dataString);
 
-            Invoke("ButtonFalse", logging);
+            }
+            
+            if( accelerometerdata.y > 0)
+            {
+                ButtonPressed();
+            }
 
         }
+
     }
 
-    void ButtonFalse()
+    public void ButtonPressed()
     {
-        isPressed = false;
-        writer.Close();
+        if (isPressed)
+        {
+            isPressed = false;
+        }
+        else
+        {
+            isPressed = true;
+        }
+
     }
+
 
 }
