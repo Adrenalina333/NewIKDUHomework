@@ -1,43 +1,68 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 using System.IO;
+using Unity.Android.Gradle;
 
 public class ButtonBehavior : MonoBehaviour
 {
-    public float loggingDuration = 10f; // Duration of logging in seconds
+    public Button MeasureButton;
+
+    //public float logging = 10f;
+
+    public bool isPressed = false;
+
     private string filePath;
+
     private StreamWriter writer;
-    private bool isLogging = false;
 
     void Start()
     {
-        filePath = @"C:\Users\Adeli\CSV_DATA\Accelerometer_Data" + System.DateTime.Now.ToString("yyyyMMddHHmmss") + ".csv";
+
+        filePath = @"C:\Users\Adeli\CSV_DATA\AccelerometerData" + System.DateTime.Now.ToString("yyyyMMddHHmmss") + ".csv";
         writer = new StreamWriter(filePath);
         writer.WriteLine("X,Y,Z");
     }
 
     void Update()
     {
-        if (isLogging)
+        if (isPressed)
         {
-            Vector3 accelerometerData = Input.acceleration;
-            string dataString = string.Format("{0},{1},{2}", accelerometerData.x, accelerometerData.y, accelerometerData.z);
-            writer.WriteLine(dataString);
-            Debug.Log(dataString);
+
+            Vector3 accelerometerdata = Input.acceleration;
+
+            string dataString = string.Format("{0},{1},{2}", accelerometerdata.x, accelerometerdata.y, accelerometerdata.z);
+
+            if( accelerometerdata.y < -0.95f)
+            {
+                writer.WriteLine(dataString);
+
+                Debug.Log(dataString);
+
+            }
+            
+            if( accelerometerdata.y > 0)
+            {
+                ButtonPressed();
+            }
+
         }
+
     }
 
-    void OnGUI()
+    public void ButtonPressed()
     {
-        if (GUI.Button(new Rect(50, 50, 500, 250), "Start Logging"))
+        if (isPressed)
         {
-            isLogging = true;
-            Invoke("StopLogging", loggingDuration);
+            isPressed = false;
         }
+        else
+        {
+            isPressed = true;
+        }
+
     }
 
-    void StopLogging()
-    {
-        isLogging = false;
-        writer.Close();
-    }
+
 }
