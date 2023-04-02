@@ -22,7 +22,7 @@ public class ButtonBehavior : MonoBehaviour
 
         filePath = @"C:\Users\Adeli\CSV_DATA\AccelerometerData" + System.DateTime.Now.ToString("yyyyMMddHHmmss") + ".csv";
         writer = new StreamWriter(filePath);
-        writer.WriteLine("X,Y,Z");
+        writer.WriteLine("X;Y;Z");
     }
 
     void Update()
